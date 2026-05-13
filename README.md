@@ -24,7 +24,7 @@ Special-window whitelist (heuristics):
 - Sheets, alerts, and modal dialogs (title keywords: `Sheet`, `Alert`, `Dialog`, `Preferences`, `Inspector`, `Panel`).
 - Short non-empty titles from regular apps (conservative length check) are included as likely utility panels.
 
-These rules are implemented in `Sources/window-observer/Utilities.swift::isInScope(_:)`.
+Detection is conservative and based on Quartz-exposed metadata (owner name and window title). Earlier attempts to use AX role/subrole or deep AX child inspection to identify Save/Open panels were reverted due to reliability concerns; the current behavior uses the title/owner heuristics implemented in `Sources/window-observer/Utilities.swift::isInScope(_:)`.
 
 ## Known limitations
 

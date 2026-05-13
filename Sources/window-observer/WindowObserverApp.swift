@@ -18,14 +18,24 @@ final class WindowObserverApp {
     private var knownWindows: [Int: WindowRecord] = [:]
     private var pollTimer: DispatchSourceTimer?
     private var workspaceObservers: [NSObjectProtocol] = []
-    private var sigintSource: DispatchSourceSignal?
+    private var signalSources: [DispatchSourceSignal] = []
     private var shouldExit = false
 
     private var foregroundWindowID: Int?
     private var minimizedWindows: Set<Int> = []
+    // Track PIDs that currently have minimized windows (heuristic fallback)
+    private var minimizedPIDs: Set<pid_t> = []
     private var lastTitleEmitAt: [Int: Date] = [:]
     private var pendingTitleRecord: [Int: WindowRecord] = [:]
     private let titleDebounceInterval: TimeInterval = 0.12
+
+    // Event dedupe support: map of "windowID:eventType" -> Date
+    private var lastEventEmitAt: [String: Date] = [:]
+    private let eventDebounceInterval: TimeInterval = 0.18
+
+    // Async append group/queue to allow flush on shutdown
+    private let appendQueue = DispatchQueue(label: "window-observer.append-json", qos: .utility)
+    private let appendGroup = DispatchGroup()
 
     private lazy var eventsLogURL: URL = {
         let cwd = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
@@ -57,8 +67,10 @@ final class WindowObserverApp {
         workspaceObservers.forEach { NSWorkspace.shared.notificationCenter.removeObserver($0) }
         workspaceObservers.removeAll()
 
-        sigintSource?.cancel()
-        sigintSource = nil
+        for src in signalSources {
+            src.cancel()
+        }
+        signalSources.removeAll()
 
         let pids = Set(knownWindows.values.map { $0.pid })
         for pid in pids {
@@ -66,6 +78,11 @@ final class WindowObserverApp {
         }
 
         emitNote("observer_stopped")
+
+        // Wait briefly for any pending async file writes to complete, then flush debug log.
+        _ = appendGroup.wait(timeout: .now() + .seconds(3))
+        DebugLog.shared.flush()
+
         exit(0)
     }
 
@@ -99,15 +116,25 @@ final class WindowObserverApp {
     }
 
     private func setupSignalHandling() {
+        // Register for SIGINT and SIGTERM and gracefully stop
         signal(SIGINT, SIG_IGN)
+        signal(SIGTERM, SIG_IGN)
 
-        let source = DispatchSource.makeSignalSource(signal: SIGINT, queue: .main)
-        source.setEventHandler { [weak self] in
-            guard let self else { return }
+        let intSource = DispatchSource.makeSignalSource(signal: SIGINT, queue: .main)
+        intSource.setEventHandler { [weak self] in
+            guard let self = self else { return }
             self.stop()
         }
-        source.resume()
-        sigintSource = source
+        intSource.resume()
+        signalSources.append(intSource)
+
+        let termSource = DispatchSource.makeSignalSource(signal: SIGTERM, queue: .main)
+        termSource.setEventHandler { [weak self] in
+            guard let self = self else { return }
+            self.stop()
+        }
+        termSource.resume()
+        signalSources.append(termSource)
     }
 
     private func registerCurrentApps() {
@@ -198,7 +225,18 @@ final class WindowObserverApp {
                     debugEntries.append((record.isOnScreen ? "shown" : "hidden", record))
                 }
             } else {
-                debugEntries.append(("window_created", record))
+                // Heuristic: if this window's PID had a minimized window recently, treat a new appearance
+                // as a restored window rather than a fresh creation. This helps when AX notifications
+                // or matching miss the minimized->restored transition.
+                if minimizedPIDs.contains(record.pid) {
+                    debugEntries.append(("restored", record))
+                    // clear minimized tracking for this PID/window
+                    minimizedWindows.remove(record.windowID)
+                    minimizedPIDs.remove(record.pid)
+                } else {
+                    debugEntries.append(("window_created", record))
+                }
+
                 axManager.register(pid: record.pid)
             }
         }
@@ -229,6 +267,15 @@ final class WindowObserverApp {
                 debugEntries.append(("restored", record))
             }
         }
+
+        // Update minimized PID set for heuristic fallbacks used elsewhere
+        var newMinimizedPIDs: Set<pid_t> = []
+        for wid in minimizedWindows {
+            if let r = knownWindows[wid] ?? currentMap[wid] {
+                newMinimizedPIDs.insert(r.pid)
+            }
+        }
+        minimizedPIDs = newMinimizedPIDs
 
         for (windowID, oldRecord) in knownWindows where currentMap[windowID] == nil {
             // If the window is currently known to be minimized (via AX), don't treat its absence
@@ -275,6 +322,13 @@ final class WindowObserverApp {
     }
 
     private func emitWindowEvent(type: String, record: WindowRecord) {
+        // Debounce identical events for the same window to reduce AX/CG noise
+        let key = "\(record.windowID):\(type)"
+        if let last = lastEventEmitAt[key], Date().timeIntervalSince(last) < eventDebounceInterval {
+            return
+        }
+        lastEventEmitAt[key] = Date()
+
         let payload = EventPayload(
             timestamp: isoFormatter.string(from: Date()),
             eventType: type,
@@ -312,7 +366,9 @@ final class WindowObserverApp {
 
     private func appendJSONToEventsFile(_ data: Data) {
         let url = eventsLogURL
-        DispatchQueue.global(qos: .utility).async {
+        appendGroup.enter()
+        appendQueue.async {
+            defer { self.appendGroup.leave() }
             do {
                 let handle = try FileHandle(forWritingTo: url)
                 defer { try? handle.close() }
@@ -454,6 +510,8 @@ final class WindowObserverApp {
         let title = copyAXString(element: windowElement, attribute: kAXTitleAttribute)
         let bounds = copyAXBounds(element: windowElement)
         let isMinimized = copyAXBool(element: windowElement, attribute: kAXMinimizedAttribute) ?? false
+        _ = copyAXString(element: windowElement, attribute: kAXRoleAttribute)
+        _ = copyAXString(element: windowElement, attribute: kAXSubroleAttribute)
         return AXWindowSnapshot(pid: pid, title: title, bounds: bounds, isMinimized: isMinimized)
     }
 

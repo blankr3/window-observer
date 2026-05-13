@@ -155,7 +155,7 @@ To surface key transient UI that is often task-relevant, the implementation heur
 - Sheets, modal dialogs, and alerts: detected by title keywords like `Sheet`, `Alert`, `Dialog` or by short non-empty titles common to modal panels (`Preferences`, `Inspector`, `Panel`).
 - App utility panels (Preferences, Inspectors): included when the title is a short, non-empty string (conservative length check in code) and the owner is a regular app.
 
-These heuristics are intentionally conservative: they require either a recognizable owner keyword or meaningful title text to avoid pulling in stray compositor overlays.
+These heuristics are intentionally conservative: they require either a recognizable owner keyword or meaningful title text to avoid pulling in stray compositor overlays. Note: an earlier change attempted to identify Save/Open panels using AX role/subrole and child inspection; that approach was reverted because it produced unreliable results across apps, so detection currently relies on Quartz/title heuristics only.
 
 ### Excluded categories
 
