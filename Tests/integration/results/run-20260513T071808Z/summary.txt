@@ -1,0 +1,11 @@
+Integration suite run: run-20260513T071808Z
+Results directory: /Users/ronblank/git/window-observer/Tests/integration/results/run-20260513T071808Z
+
+Per-case results:
+- create-textedit: unknown
+- destroy-textedit: unknown
+- save-panel: unknown
+- minimized: unknown
+- restored: unknown
+
+SOME FAILED

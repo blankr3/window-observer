@@ -1,0 +1,8 @@
+{"bounds":{"height":478,"width":574,"x":491,"y":136},"bundleIdentifier":"com.apple.TextEdit","eventType":"foreground_changed","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T07:41:24Z","windowID":4880}
+{"bounds":{"height":478,"width":574,"x":491,"y":136},"bundleIdentifier":"com.apple.TextEdit","eventType":"window_created","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T07:41:24Z","windowID":4880}
+{"eventType":"ax_notification","note":"AXWindowCreated","timestamp":"2026-05-13T07:41:24Z","title":"Untitled 13"}
+{"bounds":{"height":484,"width":582,"x":487,"y":133},"bundleIdentifier":"com.apple.TextEdit","eventType":"resized","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T07:41:24Z","windowID":4880}
+{"bounds":{"height":478,"width":574,"x":491,"y":136},"bundleIdentifier":"com.apple.TextEdit","eventType":"minimized","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T07:41:24Z","windowID":4880}
+{"bounds":{"height":488,"width":586,"x":485,"y":131},"bundleIdentifier":"com.apple.TextEdit","eventType":"resized","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T07:41:24Z","windowID":4880}
+{"bounds":{"height":218,"width":390,"x":583,"y":266},"bundleIdentifier":"com.apple.TextEdit","eventType":"foreground_changed","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T07:41:25Z","windowID":4882}
+{"bounds":{"height":218,"width":390,"x":583,"y":266},"bundleIdentifier":"com.apple.TextEdit","eventType":"restored","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T07:41:25Z","windowID":4882}

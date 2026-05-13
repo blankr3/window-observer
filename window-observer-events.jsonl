@@ -1,303 +1,179 @@
-{"eventType":"snapshot","timestamp":"2026-05-12T18:36:04Z","windows":[{"bounds":{"height":574,"width":720,"x":711,"y":41},"bundleIdentifier":"com.apple.Terminal","executableName":"Terminal","isOnScreen":true,"layer":0,"ownerName":"Terminal","pid":27782,"windowID":3555},{"bounds":{"height":640,"width":1048,"x":-129,"y":74},"bundleIdentifier":"com.apple.weather","executableName":"Weather","isOnScreen":true,"layer":0,"ownerName":"Weather","pid":37253,"windowID":4257},{"bounds":{"height":475,"width":720,"x":-10,"y":122},"bundleIdentifier":"com.apple.Safari","executableName":"Safari","isOnScreen":true,"layer":0,"ownerName":"Safari","pid":29036,"windowID":4172}]}
-{"bounds":{"height":574,"width":720,"x":711,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"foreground_changed","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:04Z","windowID":3555}
-{"eventType":"note","note":"observer_started","timestamp":"2026-05-12T18:36:04Z"}
-{"bounds":{"height":640,"width":1048,"x":-129,"y":74},"bundleIdentifier":"com.apple.weather","eventType":"foreground_changed","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:09Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-88,"y":79},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:09Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXApplicationDeactivated","timestamp":"2026-05-12T18:36:09Z","title":"Terminal"}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:09Z","title":"Ramat Gan"}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:09Z","title":"Ramat Gan"}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:09Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-88,"y":78},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:09Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-89,"y":78},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:10Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-106,"y":68},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:10Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:10Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-123,"y":60},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:10Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:10Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-123,"y":59},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:10Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-121,"y":60},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:10Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:10Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-118,"y":61},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:11Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-114,"y":63},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:11Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:11Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-112,"y":64},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:11Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:11Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-111,"y":64},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:11Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:11Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-110,"y":65},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:12Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-109,"y":66},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:12Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:12Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-108,"y":68},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:13Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-106,"y":69},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:13Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:13Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-106,"y":70},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:13Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-103,"y":71},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:13Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-97,"y":76},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:13Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:13Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-95,"y":78},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:13Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:13Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-88,"y":87},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:14Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-60,"y":120},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:14Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:14Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-39,"y":142},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:14Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-35,"y":146},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:14Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:14Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-36,"y":149},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:14Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-62,"y":199},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:14Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:14Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-99,"y":248},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:14Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-124,"y":279},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:14Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-134,"y":290},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:14Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:14Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-134,"y":291},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:15Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:15Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-134,"y":292},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:15Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-134,"y":281},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:15Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:15Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-136,"y":216},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:15Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-154,"y":123},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:15Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:15Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-172,"y":76},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:15Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-177,"y":60},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:15Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-177,"y":56},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:15Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:15Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-173,"y":52},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:16Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-162,"y":48},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:16Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:16Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":-111,"y":40},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:16Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":-12,"y":42},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:16Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:16Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":41,"y":65},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:16Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":59,"y":81},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:16Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:16Z","title":"Ramat Gan"}
-{"bounds":{"height":640,"width":1048,"x":63,"y":86},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:16Z","windowID":4257}
-{"bounds":{"height":640,"width":1048,"x":63,"y":87},"bundleIdentifier":"com.apple.weather","eventType":"moved","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:16Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-12T18:36:16Z","title":"Ramat Gan"}
-{"bounds":{"height":574,"width":720,"x":711,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"foreground_changed","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:19Z","windowID":3555}
-"bounds":{"height":628,"width":1028,"x":73,"y":93},"bundleIdentifier":"com.apple.weather","eventType":"resized","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:19Z","windowID":4257}
-{"eventType":"ax_notification","note":"AXUIElementDestroyed","timestamp":"2026-05-12T18:36:19Z"}
-{"eventType":"ax_notification","note":"AXApplicationDeactivated","timestamp":"2026-05-12T18:36:19Z","title":"Weather"}
-{"bounds":{"height":628,"width":1028,"x":73,"y":93},"bundleIdentifier":"com.apple.weather","eventType":"window_destroyed","executableName":"Weather","ownerName":"Weather","pid":37253,"timestamp":"2026-05-12T18:36:19Z","windowID":4257}
-{"bounds":{"height":475,"width":720,"x":-120,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:20Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":1362,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_created","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:20Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":2834,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"window_created","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":300}
-{"bounds":{"height":574,"width":720,"x":601,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:20Z","windowID":3555}
-{"bounds":{"height":123,"width":1408,"x":2834,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"window_created","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":319}
-{"bounds":{"height":574,"width":720,"x":283,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:20Z","windowID":3555}
-{"bounds":{"height":881,"width":1408,"x":1044,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:20Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":2516,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":2516,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-438,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:20Z","windowID":4172}
-{"bounds":{"height":475,"width":720,"x":-752,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:20Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":730,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:20Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":2202,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":300}
-{"bounds":{"height":574,"width":720,"x":-31,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:20Z","windowID":3555}
-{"bounds":{"height":123,"width":1408,"x":2202,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":319}
-{"bounds":{"height":574,"width":720,"x":-291,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:20Z","windowID":3555}
-{"bounds":{"height":881,"width":1408,"x":470,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:20Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":1942,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":1942,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-1012,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:20Z","windowID":4172}
-{"bounds":{"height":475,"width":720,"x":-1199,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:20Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":283,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:20Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":1755,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":300}
-{"bounds":{"height":574,"width":720,"x":-478,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:20Z","windowID":3555}
-{"bounds":{"height":123,"width":1408,"x":1755,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":319}
-{"bounds":{"height":574,"width":720,"x":-601,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:20Z","windowID":3555}
-{"bounds":{"height":881,"width":1408,"x":160,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:20Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":1632,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":1632,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-1322,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:20Z","windowID":4172}
-{"bounds":{"height":475,"width":720,"x":-1397,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:20Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":85,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:20Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":1557,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":300}
-{"bounds":{"height":574,"width":720,"x":-676,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:20Z","windowID":3555}
-{"bounds":{"height":123,"width":1408,"x":1557,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":319}
-{"bounds":{"height":574,"width":720,"x":-720,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:20Z","windowID":3555}
-{"bounds":{"height":881,"width":1408,"x":41,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:20Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":1513,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":1513,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-1441,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:20Z","windowID":4172}
-{"bounds":{"height":475,"width":720,"x":-1464,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:20Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":18,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:20Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":1490,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":300}
-{"bounds":{"height":574,"width":720,"x":-743,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:20Z","windowID":3555}
-{"bounds":{"height":123,"width":1408,"x":1490,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":319}
-{"bounds":{"height":574,"width":720,"x":-755,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:20Z","windowID":3555}
-{"bounds":{"height":881,"width":1408,"x":6,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:20Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":1478,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":1478,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-1476,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:20Z","windowID":4172}
-{"bounds":{"height":475,"width":720,"x":-1481,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:20Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":1,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:20Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":1473,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":300}
-{"bounds":{"height":574,"width":720,"x":-760,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:20Z","windowID":3555}
-{"bounds":{"height":123,"width":1408,"x":1473,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:20Z","windowID":319}
-{"bounds":{"height":881,"width":1408,"x":1,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"foreground_changed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:20Z","windowID":3819}
-{"bounds":{"height":881,"width":1408,"x":0,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:21Z","windowID":3819}
-{"bounds":{"height":475,"width":720,"x":-1481,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"window_destroyed","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:21Z","windowID":4172}
-{"bounds":{"height":794,"width":1408,"x":1473,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"window_destroyed","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":300}
-{"bounds":{"height":574,"width":720,"x":-760,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"window_destroyed","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:21Z","windowID":3555}
-{"bounds":{"height":123,"width":1408,"x":1473,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"window_destroyed","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":319}
-{"eventType":"ax_notification","note":"AXApplicationDeactivated","timestamp":"2026-05-12T18:36:21Z","title":"Terminal"}
-{"bounds":{"height":794,"width":1408,"x":1319,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"window_created","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":1319,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"window_created","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-1635,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"window_created","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:21Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":-153,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:21Z","windowID":3819}
-{"bounds":{"height":574,"width":720,"x":-914,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"window_created","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:21Z","windowID":3555}
-{"bounds":{"height":574,"width":720,"x":-1338,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:21Z","windowID":3555}
-{"bounds":{"height":881,"width":1408,"x":-577,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:21Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":895,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":895,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-2059,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:21Z","windowID":4172}
-{"bounds":{"height":794,"width":1408,"x":609,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":609,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-2345,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:21Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":-863,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:21Z","windowID":3819}
-{"bounds":{"height":574,"width":720,"x":-1624,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:21Z","windowID":3555}
-{"bounds":{"height":574,"width":720,"x":-1850,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:21Z","windowID":3555}
-{"bounds":{"height":881,"width":1408,"x":-1089,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:21Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":383,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":383,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-2571,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:21Z","windowID":4172}
-{"bounds":{"height":794,"width":1408,"x":226,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":226,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-2728,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:21Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":-1246,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:21Z","windowID":3819}
-{"bounds":{"height":574,"width":720,"x":-2007,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:21Z","windowID":3555}
-{"bounds":{"height":574,"width":720,"x":-2107,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:21Z","windowID":3555}
-{"bounds":{"height":881,"width":1408,"x":-1346,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:21Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":126,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":126,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-2828,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:21Z","windowID":4172}
-{"bounds":{"height":794,"width":1408,"x":65,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":65,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-2889,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:21Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":-1407,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:21Z","windowID":3819}
-{"bounds":{"height":574,"width":720,"x":-2168,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:21Z","windowID":3555}
-{"bounds":{"height":574,"width":720,"x":-2202,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:21Z","windowID":3555}
-{"bounds":{"height":881,"width":1408,"x":-1441,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:21Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":31,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":31,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-2923,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:21Z","windowID":4172}
-{"bounds":{"height":794,"width":1408,"x":13,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":13,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-2941,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:21Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":-1459,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:21Z","windowID":3819}
-{"bounds":{"height":574,"width":720,"x":-2220,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:21Z","windowID":3555}
-{"bounds":{"height":574,"width":720,"x":-2229,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:21Z","windowID":3555}
-{"bounds":{"height":881,"width":1408,"x":-1468,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:21Z","windowID":3819}
-{"bounds":{"height":794,"width":1408,"x":4,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":4,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-2950,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:21Z","windowID":4172}
-{"bounds":{"height":794,"width":1408,"x":0,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":0,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:21Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-2954,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:21Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":-1472,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:21Z","windowID":3819}
-{"bounds":{"height":574,"width":720,"x":-2233,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:21Z","windowID":3555}
-{"bounds":{"height":794,"width":1408,"x":0,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"foreground_changed","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:22Z","windowID":300}
-{"bounds":{"height":475,"width":720,"x":-2954,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"window_destroyed","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:22Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":-1472,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_destroyed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:22Z","windowID":3819}
-{"bounds":{"height":574,"width":720,"x":-2233,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"window_destroyed","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:22Z","windowID":3555}
-{"eventType":"ax_notification","note":"AXApplicationDeactivated","timestamp":"2026-05-12T18:36:22Z","title":"Code"}
-{"eventType":"ax_notification","note":"AXWindowCreated","timestamp":"2026-05-12T18:36:35Z","title":""}
-{"bounds":{"height":142,"width":270,"x":788,"y":36},"bundleIdentifier":"com.google.Chrome","eventType":"window_created","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:35Z","windowID":4266}
-{"bounds":{"height":142,"width":270,"x":785,"y":36},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:35Z","windowID":4266}
-{"bounds":{"height":142,"width":270,"x":769,"y":36},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:35Z","windowID":4266}
-{"bounds":{"height":142,"width":270,"x":762,"y":36},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:35Z","windowID":4266}
-{"bounds":{"height":142,"width":270,"x":760,"y":36},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:35Z","windowID":4266}
-{"bounds":{"height":136,"width":270,"x":752,"y":36},"bundleIdentifier":"com.google.Chrome","eventType":"resized","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:35Z","windowID":4266}
-{"bounds":{"height":126,"width":270,"x":737,"y":36},"bundleIdentifier":"com.google.Chrome","eventType":"resized","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:35Z","windowID":4266}
-{"bounds":{"height":123,"width":270,"x":733,"y":36},"bundleIdentifier":"com.google.Chrome","eventType":"resized","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:35Z","windowID":4266}
-{"bounds":{"height":122,"width":270,"x":732,"y":36},"bundleIdentifier":"com.google.Chrome","eventType":"resized","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:36Z","windowID":4266}
-{"bounds":{"height":122,"width":270,"x":732,"y":36},"bundleIdentifier":"com.google.Chrome","eventType":"window_destroyed","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:36Z","windowID":4266}
-{"eventType":"ax_notification","note":"AXWindowCreated","timestamp":"2026-05-12T18:36:36Z","title":""}
-{"bounds":{"height":794,"width":1408,"x":80,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:38Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":80,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:38Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-2874,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"window_created","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:38Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":-1392,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_created","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:38Z","windowID":3819}
-{"bounds":{"height":574,"width":720,"x":-2153,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"window_created","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:38Z","windowID":3555}
-{"bounds":{"height":475,"width":720,"x":-2842,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:38Z","windowID":4172}
-{"bounds":{"height":794,"width":1408,"x":112,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:38Z","windowID":300}
-{"bounds":{"height":881,"width":1408,"x":-1360,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:38Z","windowID":3819}
-{"bounds":{"height":123,"width":1408,"x":112,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:38Z","windowID":319}
-{"bounds":{"height":574,"width":720,"x":-2121,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:38Z","windowID":3555}
-{"bounds":{"height":794,"width":1408,"x":492,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:38Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":492,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:38Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-2462,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:38Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":-980,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:38Z","windowID":3819}
-{"bounds":{"height":574,"width":720,"x":-1741,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:38Z","windowID":3555}
-{"bounds":{"height":475,"width":720,"x":-2249,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:38Z","windowID":4172}
-{"bounds":{"height":794,"width":1408,"x":705,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:38Z","windowID":300}
-{"bounds":{"height":881,"width":1408,"x":-767,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:38Z","windowID":3819}
-{"bounds":{"height":123,"width":1408,"x":705,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:38Z","windowID":319}
-{"bounds":{"height":574,"width":720,"x":-1528,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:38Z","windowID":3555}
-{"bounds":{"height":794,"width":1408,"x":976,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":976,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-1978,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:39Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":-496,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:39Z","windowID":3819}
-{"bounds":{"height":574,"width":720,"x":-1257,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:39Z","windowID":3555}
-{"bounds":{"height":475,"width":720,"x":-1732,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:39Z","windowID":4172}
-{"bounds":{"height":794,"width":1408,"x":1222,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":300}
-{"bounds":{"height":881,"width":1408,"x":-250,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:39Z","windowID":3819}
-{"bounds":{"height":123,"width":1408,"x":1222,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":319}
-{"bounds":{"height":574,"width":720,"x":-1011,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:39Z","windowID":3555}
-{"bounds":{"height":794,"width":1408,"x":1333,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":1333,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-1621,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:39Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":-139,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:39Z","windowID":3819}
-{"bounds":{"height":574,"width":720,"x":-900,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:39Z","windowID":3555}
-{"bounds":{"height":475,"width":720,"x":-1573,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:39Z","windowID":4172}
-{"bounds":{"height":794,"width":1408,"x":1381,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":300}
-{"bounds":{"height":881,"width":1408,"x":-91,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:39Z","windowID":3819}
-{"bounds":{"height":123,"width":1408,"x":1381,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":319}
-{"bounds":{"height":574,"width":720,"x":-852,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:39Z","windowID":3555}
-{"bounds":{"height":794,"width":1408,"x":1427,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":1427,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-1527,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:39Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":-45,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:39Z","windowID":3819}
-{"bounds":{"height":574,"width":720,"x":-806,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:39Z","windowID":3555}
-{"bounds":{"height":475,"width":720,"x":-1502,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:39Z","windowID":4172}
-{"bounds":{"height":794,"width":1408,"x":1452,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":300}
-{"bounds":{"height":881,"width":1408,"x":-20,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:39Z","windowID":3819}
-{"bounds":{"height":123,"width":1408,"x":1452,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":319}
-{"bounds":{"height":574,"width":720,"x":-781,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:39Z","windowID":3555}
-{"bounds":{"height":794,"width":1408,"x":1467,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":1467,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":319}
-{"bounds":{"height":475,"width":720,"x":-1487,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:39Z","windowID":4172}
-{"bounds":{"height":881,"width":1408,"x":-5,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:39Z","windowID":3819}
-{"bounds":{"height":574,"width":720,"x":-766,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:39Z","windowID":3555}
-{"bounds":{"height":475,"width":720,"x":-1483,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"moved","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:39Z","windowID":4172}
-{"bounds":{"height":794,"width":1408,"x":1471,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":300}
-{"bounds":{"height":881,"width":1408,"x":-1,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:39Z","windowID":3819}
-{"bounds":{"height":123,"width":1408,"x":1471,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"moved","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":319}
-{"bounds":{"height":574,"width":720,"x":-762,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:39Z","windowID":3555}
-{"bounds":{"height":881,"width":1408,"x":-1,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"foreground_changed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:39Z","windowID":3819}
-{"bounds":{"height":881,"width":1408,"x":0,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"moved","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:39Z","windowID":3819}
-{"bounds":{"height":475,"width":720,"x":-1483,"y":122},"bundleIdentifier":"com.apple.Safari","eventType":"window_destroyed","executableName":"Safari","ownerName":"Safari","pid":29036,"timestamp":"2026-05-12T18:36:39Z","windowID":4172}
-{"bounds":{"height":794,"width":1408,"x":1471,"y":87},"bundleIdentifier":"com.google.Chrome","eventType":"window_destroyed","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":300}
-{"bounds":{"height":123,"width":1408,"x":1471,"y":0},"bundleIdentifier":"com.google.Chrome","eventType":"window_destroyed","executableName":"Google Chrome","ownerName":"Google Chrome","pid":2375,"timestamp":"2026-05-12T18:36:39Z","windowID":319}
-{"bounds":{"height":574,"width":720,"x":-762,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"window_destroyed","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-12T18:36:39Z","windowID":3555}
-{"eventType":"ax_notification","note":"AXApplicationDeactivated","timestamp":"2026-05-12T18:36:39Z","title":"Chrome"}
-{"bounds":{"height":160,"width":260,"x":574,"y":360},"bundleIdentifier":"com.microsoft.VSCode","eventType":"foreground_changed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:55Z","windowID":4271}
-{"bounds":{"height":160,"width":260,"x":574,"y":360},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_created","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:55Z","windowID":4271}
-{"bounds":{"height":881,"width":1408,"x":0,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"foreground_changed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:57Z","windowID":3819}
-{"bounds":{"height":160,"width":260,"x":574,"y":360},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_destroyed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:36:57Z","windowID":4271}
-{"bounds":{"height":160,"width":260,"x":574,"y":360},"bundleIdentifier":"com.microsoft.VSCode","eventType":"foreground_changed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:37:00Z","windowID":4274}
-{"bounds":{"height":160,"width":260,"x":574,"y":360},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_created","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:37:00Z","windowID":4274}
-{"bounds":{"height":881,"width":1408,"x":0,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"foreground_changed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:37:02Z","windowID":3819}
-{"bounds":{"height":144,"width":234,"x":587,"y":368},"bundleIdentifier":"com.microsoft.VSCode","eventType":"resized","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:37:02Z","windowID":4274}
-{"bounds":{"height":144,"width":234,"x":587,"y":368},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_destroyed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:37:02Z","windowID":4274}
-{"bounds":{"height":358,"width":260,"x":574,"y":261},"bundleIdentifier":"com.microsoft.VSCode","eventType":"foreground_changed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:37:31Z","windowID":4277}
-{"bounds":{"height":358,"width":260,"x":574,"y":261},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_created","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:37:31Z","windowID":4277}
-{"bounds":{"height":881,"width":1408,"x":0,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"foreground_changed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:37:32Z","windowID":3819}
-{"bounds":{"height":358,"width":260,"x":574,"y":261},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_destroyed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-12T18:37:32Z","windowID":4277}
-{"bounds":{"height":208,"width":260,"x":574,"y":336},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_destroyed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-13T06:06:46Z","windowID":4573}
-{"bounds":{"height":208,"width":260,"x":574,"y":336},"bundleIdentifier":"com.microsoft.VSCode","eventType":"foreground_changed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-13T06:06:54Z","windowID":4574}
-{"bounds":{"height":208,"width":260,"x":574,"y":336},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_created","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-13T06:06:54Z","windowID":4574}
-{"bounds":{"height":881,"width":1408,"x":0,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"foreground_changed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-13T06:06:57Z","windowID":3819}
-{"bounds":{"height":187,"width":234,"x":587,"y":347},"bundleIdentifier":"com.microsoft.VSCode","eventType":"resized","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-13T06:06:57Z","windowID":4574}
-{"bounds":{"height":187,"width":234,"x":587,"y":347},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_destroyed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-13T06:06:57Z","windowID":4574}
-{"bounds":{"height":358,"width":260,"x":574,"y":261},"bundleIdentifier":"com.microsoft.VSCode","eventType":"foreground_changed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-13T06:08:10Z","windowID":4577}
-{"bounds":{"height":358,"width":260,"x":574,"y":261},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_created","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-13T06:08:10Z","windowID":4577}
-{"bounds":{"height":881,"width":1408,"x":0,"y":0},"bundleIdentifier":"com.microsoft.VSCode","eventType":"foreground_changed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-13T06:08:11Z","windowID":3819}
-{"bounds":{"height":358,"width":260,"x":574,"y":261},"bundleIdentifier":"com.microsoft.VSCode","eventType":"window_destroyed","executableName":"Code","ownerName":"Code","pid":31900,"timestamp":"2026-05-13T06:08:11Z","windowID":4577}
+{"eventType":"snapshot","timestamp":"2026-05-13T08:22:17Z","windows":[{"bounds":{"height":574,"width":720,"x":711,"y":41},"bundleIdentifier":"com.apple.Terminal","executableName":"Terminal","isOnScreen":true,"layer":0,"ownerName":"Terminal","pid":27782,"windowID":3555}]}
+{"bounds":{"height":574,"width":720,"x":711,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"foreground_changed","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-13T08:22:17Z","windowID":3555}
+{"eventType":"note","note":"observer_started","timestamp":"2026-05-13T08:22:17Z"}
+{"bounds":{"height":488,"width":586,"x":688,"y":58},"bundleIdentifier":"com.apple.TextEdit","eventType":"foreground_changed","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:20Z","windowID":4980}
+{"bounds":{"height":488,"width":586,"x":688,"y":58},"bundleIdentifier":"com.apple.TextEdit","eventType":"window_created","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:20Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXApplicationDeactivated","timestamp":"2026-05-13T08:22:20Z","title":"Terminal"}
+{"bounds":{"height":488,"width":586,"x":668,"y":58},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:20Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:20Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:21Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":302,"y":101},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:21Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:21Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":222,"y":143},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:21Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:21Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:21Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":121,"y":173},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:21Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:21Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:21Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":107,"y":173},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:21Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:21Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":92,"y":171},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:22Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:22Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:22Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:22Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":73,"y":174},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:24Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:24Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:24Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":66,"y":123},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:24Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:24Z","title":"Untitled 20"}
+{"bounds":{"height":574,"width":720,"x":711,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"foreground_changed","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-13T08:22:26Z","windowID":3555}
+{"eventType":"ax_notification","note":"AXApplicationDeactivated","timestamp":"2026-05-13T08:22:26Z","title":"TextEdit"}
+{"bounds":{"height":488,"width":586,"x":66,"y":123},"bundleIdentifier":"com.apple.TextEdit","eventType":"foreground_changed","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:27Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXApplicationDeactivated","timestamp":"2026-05-13T08:22:27Z","title":"Terminal"}
+{"bounds":{"height":488,"width":586,"x":78,"y":118},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:27Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:27Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:27Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":159,"y":92},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:27Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:27Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":167,"y":92},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:27Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:28Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:28Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":278,"y":171},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:28Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:28Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":313,"y":231},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:28Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:28Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:28Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":104,"y":124},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:28Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:28Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:28Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":-121,"y":35},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:29Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:29Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":-72,"y":66},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:29Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:29Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:29Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":-60,"y":80},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:29Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:29Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:29Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":-44,"y":91},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:29Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:29Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:29Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:29Z","title":"Untitled 20"}
+{"bounds":{"height":488,"width":586,"x":-7,"y":106},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:32Z","windowID":4980}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:32Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:32Z","title":"Untitled 20"}
+{"eventType":"ax_notification","note":"AXUIElementDestroyed","timestamp":"2026-05-13T08:22:33Z"}
+{"bounds":{"height":484,"width":582,"x":134,"y":98},"bundleIdentifier":"com.apple.TextEdit","eventType":"resized","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:33Z","windowID":4980}
+{"bounds":{"height":488,"width":586,"x":630,"y":276},"bundleIdentifier":"com.apple.TextEdit","eventType":"foreground_changed","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:36Z","windowID":4960}
+{"bounds":{"height":488,"width":586,"x":630,"y":276},"bundleIdentifier":"com.apple.TextEdit","eventType":"window_created","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:36Z","windowID":4960}
+{"bounds":{"height":488,"width":586,"x":628,"y":276},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:36Z","windowID":4960}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:36Z","title":"Untitled 18"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:37Z","title":"Untitled 18"}
+{"bounds":{"height":488,"width":586,"x":272,"y":237},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:37Z","windowID":4960}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:37Z","title":"Untitled 18"}
+{"bounds":{"height":488,"width":586,"x":219,"y":212},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:37Z","windowID":4960}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:37Z","title":"Untitled 18"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:37Z","title":"Untitled 18"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:37Z","title":"Untitled 18"}
+{"bounds":{"height":488,"width":586,"x":214,"y":212},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:37Z","windowID":4960}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:37Z","title":"Untitled 18"}
+{"bounds":{"height":488,"width":586,"x":105,"y":225},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:37Z","windowID":4960}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:37Z","title":"Untitled 18"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:37Z","title":"Untitled 18"}
+{"bounds":{"height":488,"width":586,"x":99,"y":220},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:39Z","windowID":4960}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:39Z","title":"Untitled 18"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:39Z","title":"Untitled 18"}
+{"bounds":{"height":488,"width":586,"x":78,"y":157},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:39Z","windowID":4960}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:39Z","title":"Untitled 18"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:39Z","title":"Untitled 18"}
+{"bounds":{"height":488,"width":586,"x":78,"y":158},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:39Z","windowID":4960}
+{"bounds":{"height":574,"width":720,"x":711,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"foreground_changed","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-13T08:22:41Z","windowID":3555}
+{"bounds":{"height":574,"width":720,"x":710,"y":41},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-13T08:22:41Z","windowID":3555}
+{"eventType":"ax_notification","note":"AXApplicationDeactivated","timestamp":"2026-05-13T08:22:41Z","title":"TextEdit"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:41Z","title":"window-observer — window-observer — 100×35"}
+{"bounds":{"height":574,"width":720,"x":498,"y":56},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-13T08:22:41Z","windowID":3555}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:41Z","title":"window-observer — window-observer — 100×35"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:41Z","title":"window-observer — window-observer — 100×35"}
+{"bounds":{"height":574,"width":720,"x":505,"y":61},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-13T08:22:41Z","windowID":3555}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:41Z","title":"window-observer — window-observer — 100×35"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:22:41Z","title":"window-observer — window-observer — 100×35"}
+{"eventType":"ax_notification","note":"AXApplicationDeactivated","timestamp":"2026-05-13T08:22:44Z","title":"Terminal"}
+{"bounds":{"height":432,"width":910,"x":280,"y":141},"bundleIdentifier":"com.apple.finder","eventType":"foreground_changed","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:45Z","windowID":5002}
+{"bounds":{"height":432,"width":910,"x":280,"y":141},"bundleIdentifier":"com.apple.finder","eventType":"window_created","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:45Z","windowID":5002}
+{"eventType":"ax_notification","note":"AXWindowCreated","timestamp":"2026-05-13T08:22:45Z","title":"Recents"}
+{"bounds":{"height":434,"width":916,"x":277,"y":140},"bundleIdentifier":"com.apple.finder","eventType":"resized","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:45Z","windowID":5002}
+{"bounds":{"height":436,"width":920,"x":275,"y":139},"bundleIdentifier":"com.apple.finder","eventType":"resized","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:45Z","windowID":5002}
+{"bounds":{"height":436,"width":920,"x":274,"y":139},"bundleIdentifier":"com.apple.finder","eventType":"moved","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:46Z","windowID":5002}
+{"bounds":{"height":436,"width":920,"x":17,"y":487},"bundleIdentifier":"com.apple.finder","eventType":"moved","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:46Z","windowID":5002}
+{"bounds":{"height":436,"width":920,"x":0,"y":519},"bundleIdentifier":"com.apple.finder","eventType":"moved","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:46Z","windowID":5002}
+{"bounds":{"height":436,"width":920,"x":20,"y":439},"bundleIdentifier":"com.apple.finder","eventType":"moved","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:46Z","windowID":5002}
+{"bounds":{"height":436,"width":920,"x":107,"y":364},"bundleIdentifier":"com.apple.finder","eventType":"moved","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:47Z","windowID":5002}
+{"bounds":{"height":436,"width":920,"x":117,"y":364},"bundleIdentifier":"com.apple.finder","eventType":"moved","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:47Z","windowID":5002}
+{"bounds":{"height":436,"width":920,"x":118,"y":364},"bundleIdentifier":"com.apple.finder","eventType":"moved","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:47Z","windowID":5002}
+{"bounds":{"height":436,"width":920,"x":120,"y":364},"bundleIdentifier":"com.apple.finder","eventType":"moved","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:48Z","windowID":5002}
+{"bounds":{"height":436,"width":920,"x":121,"y":364},"bundleIdentifier":"com.apple.finder","eventType":"moved","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:49Z","windowID":5002}
+{"bounds":{"height":436,"width":920,"x":122,"y":364},"bundleIdentifier":"com.apple.finder","eventType":"moved","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:49Z","windowID":5002}
+{"bounds":{"height":436,"width":920,"x":125,"y":364},"bundleIdentifier":"com.apple.finder","eventType":"moved","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:49Z","windowID":5002}
+{"bounds":{"height":436,"width":920,"x":133,"y":364},"bundleIdentifier":"com.apple.finder","eventType":"moved","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:49Z","windowID":5002}
+{"bounds":{"height":434,"width":914,"x":137,"y":365},"bundleIdentifier":"com.apple.finder","eventType":"resized","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:52Z","windowID":5002}
+{"bounds":{"height":428,"width":902,"x":143,"y":368},"bundleIdentifier":"com.apple.finder","eventType":"window_destroyed","executableName":"Finder","ownerName":"Finder","pid":1687,"timestamp":"2026-05-13T08:22:52Z","windowID":5002}
+{"eventType":"ax_notification","note":"AXUIElementDestroyed","timestamp":"2026-05-13T08:22:53Z"}
+{"bounds":{"height":482,"width":578,"x":82,"y":161},"bundleIdentifier":"com.apple.TextEdit","eventType":"resized","executableName":"TextEdit","ownerName":"TextEdit","pid":40419,"timestamp":"2026-05-13T08:22:53Z","windowID":4960}
+{"eventType":"note","note":"app_terminated pid=40419","timestamp":"2026-05-13T08:22:57Z"}
+{"eventType":"ax_notification","note":"AXApplicationDeactivated","timestamp":"2026-05-13T08:22:59Z","title":"Finder"}
+{"eventType":"note","note":"app_launched pid=46312","timestamp":"2026-05-13T08:22:59Z"}
+{"bounds":{"height":446,"width":878,"x":265,"y":110},"bundleIdentifier":"com.apple.TextEdit","eventType":"foreground_changed","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:00Z","windowID":5010}
+{"bounds":{"height":446,"width":878,"x":265,"y":110},"bundleIdentifier":"com.apple.TextEdit","eventType":"window_created","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:00Z","windowID":5010}
+{"bounds":{"height":448,"width":878,"x":265,"y":109},"bundleIdentifier":"com.apple.TextEdit","eventType":"resized","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:00Z","windowID":5010}
+{"bounds":{"height":448,"width":880,"x":263,"y":109},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:02Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:02Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":-38,"y":336},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:02Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:02Z","title":"Open"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:02Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":-58,"y":354},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:02Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:02Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":-60,"y":353},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:03Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:03Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":-151,"y":342},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:03Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:03Z","title":"Open"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:03Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":-194,"y":342},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:03Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:03Z","title":"Open"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:03Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":-214,"y":342},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:03Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:03Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":-190,"y":342},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:04Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:04Z","title":"Open"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:04Z","title":"Open"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:04Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":120,"y":258},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:04Z","windowID":5010}
+{"bounds":{"height":448,"width":880,"x":116,"y":272},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:04Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:04Z","title":"Open"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:04Z","title":"Open"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:04Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":106,"y":397},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:04Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:04Z","title":"Open"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:04Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":114,"y":427},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:05Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:05Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":114,"y":414},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:05Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:05Z","title":"Open"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:05Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":116,"y":217},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:05Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:05Z","title":"Open"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:05Z","title":"Open"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:06Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":113,"y":214},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:06Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:06Z","title":"Open"}
+{"bounds":{"height":448,"width":880,"x":80,"y":222},"bundleIdentifier":"com.apple.TextEdit","eventType":"moved","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:06Z","windowID":5010}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:06Z","title":"Open"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:06Z","title":"Open"}
+{"eventType":"ax_notification","note":"AXUIElementDestroyed","timestamp":"2026-05-13T08:23:09Z"}
+{"bounds":{"height":444,"width":872,"x":79,"y":227},"bundleIdentifier":"com.apple.TextEdit","eventType":"resized","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:09Z","windowID":5010}
+{"bounds":{"height":440,"width":862,"x":84,"y":229},"bundleIdentifier":"com.apple.TextEdit","eventType":"window_destroyed","executableName":"TextEdit","ownerName":"TextEdit","pid":46312,"timestamp":"2026-05-13T08:23:10Z","windowID":5010}
+{"bounds":{"height":574,"width":720,"x":602,"y":82},"bundleIdentifier":"com.apple.Terminal","eventType":"foreground_changed","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-13T08:23:12Z","windowID":3555}
+{"eventType":"ax_notification","note":"AXApplicationDeactivated","timestamp":"2026-05-13T08:23:12Z","title":"TextEdit"}
+{"bounds":{"height":574,"width":720,"x":607,"y":82},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-13T08:23:12Z","windowID":3555}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:12Z","title":"window-observer — window-observer — 100×35"}
+{"eventType":"ax_notification","note":"AXMoved","timestamp":"2026-05-13T08:23:12Z","title":"window-observer — window-observer — 100×35"}
+{"bounds":{"height":574,"width":720,"x":668,"y":68},"bundleIdentifier":"com.apple.Terminal","eventType":"moved","executableName":"Terminal","ownerName":"Terminal","pid":27782,"timestamp":"2026-05-13T08:23:12Z","windowID":3555}
+{"eventType":"note","note":"observer_stopped","timestamp":"2026-05-13T08:23:13Z"}

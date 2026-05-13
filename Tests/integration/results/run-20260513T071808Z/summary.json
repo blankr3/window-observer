@@ -1,0 +1,36 @@
+{
+{
+  "case": "create-textedit",
+  "status": "fail",
+  "events": "/Users/ronblank/git/window-observer/Tests/integration/results/run-20260513T071808Z/create-textedit/events.jsonl",
+  "debug": "/Users/ronblank/git/window-observer/Tests/integration/results/run-20260513T071808Z/create-textedit/debug.txt"
+}
+,
+{
+  "case": "destroy-textedit",
+  "status": "pass",
+  "events": "/Users/ronblank/git/window-observer/Tests/integration/results/run-20260513T071808Z/destroy-textedit/events.jsonl",
+  "debug": "/Users/ronblank/git/window-observer/Tests/integration/results/run-20260513T071808Z/destroy-textedit/debug.txt"
+}
+,
+{
+  "case": "save-panel",
+  "status": "pass",
+  "events": "/Users/ronblank/git/window-observer/Tests/integration/results/run-20260513T071808Z/save-panel/events.jsonl",
+  "debug": "/Users/ronblank/git/window-observer/Tests/integration/results/run-20260513T071808Z/save-panel/debug.txt"
+}
+,
+{
+  "case": "minimized",
+  "status": "pass",
+  "events": "/Users/ronblank/git/window-observer/Tests/integration/results/run-20260513T071808Z/minimized/events.jsonl",
+  "debug": "/Users/ronblank/git/window-observer/Tests/integration/results/run-20260513T071808Z/minimized/debug.txt"
+}
+,
+{
+  "case": "restored",
+  "status": "fail",
+  "events": "/Users/ronblank/git/window-observer/Tests/integration/results/run-20260513T071808Z/restored/events.jsonl",
+  "debug": "/Users/ronblank/git/window-observer/Tests/integration/results/run-20260513T071808Z/restored/debug.txt"
+}
+}

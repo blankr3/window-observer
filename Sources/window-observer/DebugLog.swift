@@ -24,6 +24,11 @@ final class DebugLog: @unchecked Sendable {
         append(text)
     }
 
+    /// Flush any pending writes. Blocks until the internal queue has drained.
+    func flush() {
+        queue.sync {}
+    }
+
     private func append(_ text: String) {
         queue.async { [url] in
             guard let data = text.data(using: .utf8) else { return }
