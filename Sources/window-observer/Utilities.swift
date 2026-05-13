@@ -99,6 +99,7 @@ func isInScope(_ window: [String: Any]) -> Bool {
     let ownerName = (window[kCGWindowOwnerName as String] as? String) ?? ""
     let layer = (window[kCGWindowLayer as String] as? Int) ?? -1
     let isOnScreen = (window[kCGWindowIsOnscreen as String] as? Int) ?? 0
+    let title = (window[kCGWindowName as String] as? String) ?? ""
 
     guard let bounds = parseBounds(window[kCGWindowBounds as String]) else {
         return false
@@ -112,12 +113,48 @@ func isInScope(_ window: [String: Any]) -> Bool {
     ]
 
     if excludedOwners.contains(ownerName) { return false }
-    if layer != 0 { return false }
     if isOnScreen == 0 { return false }
     if bounds.width < 120 || bounds.height < 80 { return false }
     if ownerName.isEmpty { return false }
 
-    return true
+    // Baseline: accept layer 0 normal windows
+    if layer == 0 {
+        return true
+    }
+
+    // Heuristics: explicitly allow some special user-facing panels even if their layer != 0.
+    // These are conservative, title/owner-based heuristics used to include:
+    // - Spotlight / launcher overlays
+    // - Open/Save panels and file choosers
+    // - Sheets, modal alerts, and dialogs
+    // - App utility panels such as Preferences or Inspectors
+    
+    let lowerOwner = ownerName.lowercased()
+    let lowerTitle = title.lowercased()
+
+    // Owner-based whitelist (common system/launcher owners)
+    let ownerWhitelistKeywords = ["spotlight", "launchpad"]
+    if ownerWhitelistKeywords.contains(where: { lowerOwner.contains($0) }) {
+        return true
+    }
+
+    // Title/key-text based whitelist for panels and dialogs
+    let titleKeywords = [
+        "open", "save", "save as", "open file", "choose", "sheet",
+        "alert", "dialog", "preferences", "inspector", "panel", "chooser",
+        "print"
+    ]
+    if !lowerTitle.isEmpty && titleKeywords.contains(where: { lowerTitle.contains($0) }) {
+        return true
+    }
+
+    // Owner-specific utility panels: if owner is a normal app and title is short but non-empty,
+    // include as a likely utility panel (e.g., "Preferences", "Inspector"). This is conservative: require title length <= 40.
+    if layer > 0 && !lowerTitle.isEmpty && lowerTitle.count <= 40 && !lowerOwner.isEmpty {
+        return true
+    }
+
+    return false
 }
 
 func listInScopeWindows() -> [WindowRecord] {

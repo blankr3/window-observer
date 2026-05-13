@@ -138,36 +138,36 @@ To avoid flooding on rapidly changing titles, title changes are debounced over a
 
 ## Filter rule
 
-The observer only reports on windows that are considered in scope by a practical “real window” rule.
+The observer reports windows that are meaningful user-facing surfaces using a conservative baseline plus an explicit whitelist for common panel-like windows that users interact with.
 
-### In scope
+### Baseline
 
-A window is in scope when it is a meaningful user-facing window surface, generally characterized by:
+- By default accept normal application windows in the normal (layer 0) window layer.
+- Require the window to be on-screen, have a non-empty owner name, and meet a minimum size threshold (the code uses 120×80 as the baseline).
+- Exclude obvious shell/compositor noise by owner name (Dock, Window Server, Control Center, Notification Center).
 
-- Visible on screen.
-- Non-empty owner name.
-- Reasonable size.
-- A normal window layer, or a limited set of special panel-like windows explicitly accepted by heuristic.
-- Not part of obvious shell/compositor/system-noise categories.
+### Special-window whitelist (heuristics)
+
+To surface key transient UI that is often task-relevant, the implementation heuristically includes a small set of special windows even when they are not in layer 0. These are included conservatively using owner-name and title heuristics:
+
+- Spotlight / launcher overlays: detected by owner name keywords such as `Spotlight` or `Launchpad`.
+- File open / save panels and choosers: detected by window name/title keywords such as `Open`, `Save`, `Save As`, `Choose`, `Chooser`, or `Print`.
+- Sheets, modal dialogs, and alerts: detected by title keywords like `Sheet`, `Alert`, `Dialog` or by short non-empty titles common to modal panels (`Preferences`, `Inspector`, `Panel`).
+- App utility panels (Preferences, Inspectors): included when the title is a short, non-empty string (conservative length check in code) and the owner is a regular app.
+
+These heuristics are intentionally conservative: they require either a recognizable owner keyword or meaningful title text to avoid pulling in stray compositor overlays.
 
 ### Excluded categories
 
-Examples of excluded categories include:
+- Dock, Window Server (compositor surfaces), Control Center, Notification Center remain excluded.
+- Very small windows (under the minimum size) and owner-less surfaces are excluded.
 
-1. **Dock**
-   - Excluded because it is a shell UI surface, not an app window being observed.
+### Rationale and limitations
 
-2. **Window Server / compositor surfaces**
-   - Excluded because they are internal rendering artifacts, not user windows.
+- The whitelist is heuristic and best-effort: it improves inclusion of common task-relevant panels but cannot guarantee coverage for all apps or system UI variants.
+- Some system-provided overlays or third-party panels may be missed or falsely included depending on owner/title conventions.
+- AX-based enrichment is still used to detect minimized/restored state and to reconcile focused windows; the whitelist only affects the Quartz-derived in-scope filter.
 
-3. **Control Center / Notification Center / similar shell overlays**
-   - Excluded because they are system shell UI, not representative application windows for this observer.
-
-Additional noisy surfaces may be excluded by layer, size threshold, or owner-based heuristics.
-
-### Rationale
-
-The exercise explicitly leaves the scope definition to the implementation. The goal here is to report a stable, useful stream of user-facing application windows while avoiding noise that would make the stream harder to interpret.
 
 ## Event schema
 
